@@ -22,20 +22,23 @@
 header {
   background-color: black;
 }
-header ul {
+header nav {
+  text-align: center;
+}
+header nav ul {
   margin: 0px;
   padding: 0px;
 }
-header ul ul {
+header nav ul ul {
   list-style-type: none;
 }
-header ul li {
+header nav ul li {
   margin: 10px 10px 10px 10px;
   text-decoration: none;
   font-family: caveat;
   font-size: 120%;
+  color: white;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
 }
 
@@ -110,25 +113,23 @@ footer img {
 .recoleta {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 5px;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
 }
 .recoleta img {
-  width: 80%;
-  height: 80%;
-  padding: 50px 50px 50px 50px;
-  margin: 10px;
+  width: 70%;
+  height: 70%;
 }
 
 .puertomadero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
 }
 .puertomadero img {
-  width: 80%;
-  height: 80%;
-  padding: 50px 50px 50px 50px;
-  margin: 10px;
+  width: 70%;
+  height: 70%;
 }
 
 .puertomadero img:hover {
@@ -147,6 +148,7 @@ footer img {
   font-family: pacifico;
   font-weight: 100%;
   font-size: 40px;
+  padding: 10px;
 }
 .nuestros-locales h4 {
   text-align: center;
@@ -166,6 +168,7 @@ footer img {
   display: flex;
   padding: 10px;
   margin: 5px;
+  justify-items: center;
 }
 .menu-semanal img {
   width: 100%;
@@ -184,6 +187,9 @@ footer img {
   background-color: orange;
 }
 
+.nuestro-menu {
+  background-image: linear-gradient(orange, white);
+}
 .nuestro-menu h2 {
   text-align: center;
   font-family: pacifico;
