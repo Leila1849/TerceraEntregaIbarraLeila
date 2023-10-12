@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "caveat";
+  src: url("../fronts/Caveat-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "pacifico";
+  src: url("../fronts/Pacifico-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.titulo {
+  background-color: black;
+  text-align: center;
+}
+.titulo img {
+  width: 30%;
+}
+
+header {
+  background-color: black;
+}
+header ul {
+  margin: 0px;
+  padding: 0px;
+}
+header ul ul {
+  list-style-type: none;
+}
+header ul li {
+  margin: 10px 10px 10px 10px;
+  text-decoration: none;
+  font-family: caveat;
+  font-size: 120%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.titulocomida {
+  text-align: center;
+  background-color: lemonchiffon;
+  color: black;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+  font-family: pacifico;
+}
+
+.section2 {
+  display: flex;
+  overflow: hidden;
+}
+.section2 img {
+  width: 50%;
+  height: 70%;
+  border: khaki 10px solid;
+}
+
+.platos {
+  background-image: linear-gradient(orange, white);
+}
+.platos h2 {
+  text-align: center;
+  font-family: pacifico;
+}
+.platos img:hover {
+  background-color: orange;
+}
+.platos h4 {
+  font-family: pacifico;
+}
+
+.happy {
+  background-color: black;
+  text-align: center;
+  font-family: caveat;
+}
+.happy h2 {
+  color: white;
+}
+.happy p {
+  color: white;
+}
+
+.ubicacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ubicacion h4 {
+  font-family: pacifico;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  font-family: caveat;
+  font-size: 150%;
+}
+footer img {
+  width: 20%;
+  height: 20%;
+}
+
+/*nuestros locales*/
+.recoleta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5px;
+}
+.recoleta img {
+  width: 80%;
+  height: 80%;
+  padding: 50px 50px 50px 50px;
+  margin: 10px;
+}
+
+.puertomadero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.puertomadero img {
+  width: 80%;
+  height: 80%;
+  padding: 50px 50px 50px 50px;
+  margin: 10px;
+}
+
+.puertomadero img:hover {
+  transform: translate(20px, -20px);
+}
+
+.recoleta img:hover {
+  transform: translate(20px, -20px);
+}
+
+.nuestros-locales {
+  background-image: linear-gradient(orange, white);
+}
+.nuestros-locales h2 {
+  text-align: center;
+  font-family: pacifico;
+  font-weight: 100%;
+  font-size: 40px;
+}
+.nuestros-locales h4 {
+  text-align: center;
+  font-family: pacifico;
+  font-weight: 100%;
+  font-size: 30px;
+}
+.nuestros-locales h3 {
+  text-align: center;
+  font-family: caveat;
+  font-size: 25px;
+  padding: 25px;
+}
+
+/*Nuestro menu*/
+.menu-semanal {
+  display: flex;
+  padding: 10px;
+  margin: 5px;
+}
+.menu-semanal img {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  padding: 10px;
+}
+
+.card-title {
+  font-style: oblique;
+}
+
+.btn btn-primary {
+  background-color: orange;
+}
+
+.nuestro-menu h2 {
+  text-align: center;
+  font-family: pacifico;
+}
+
+/*Reservas*/
+.reserva {
+  text-align: center;
+  background-image: linear-gradient(orange, white);
+}
+.reserva h2 {
+  font-family: pacifico;
+}
+
+.formulario h3 {
+  font-size: 25px;
+  font-family: caveat;
+}
+
+/*quienes somos*/
+.quienes-somos {
+  background-image: linear-gradient(white, orange);
+}
+
+/*# sourceMappingURL=style.css.map */
