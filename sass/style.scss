@@ -31,9 +31,7 @@ header{
         padding:0px;
 
         ul{ 
-        list-style-type:none;
-
-        }
+        list-style-type:none; }
 
                 li{ 
             
@@ -43,13 +41,17 @@ header{
             font-size: 120%;
             color:white;
             text-align:center;
-            display: inline-block;
-        
+            display: inline-block;        
             }
-            }
-        }
+     }       
+    }
     }
 
+.section1{
+    img{
+        overflow: hidden;
+    }
+}
 .titulocomida{
     text-align: center;
     background-color: lemonchiffon;
@@ -91,7 +93,7 @@ header{
     h2{
         color:white;
     }
-    p{
+    h3{
         color:white;}  
        
         }
@@ -100,10 +102,31 @@ header{
     display:flex;
     justify-content: center;
     align-items: center;
+
     h4{
         font-family:$fuente-pacif;
     }
 }
+
+.redes{
+    margin:16px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    img{
+        height: 64px;
+        width: 64px;
+       
+    }
+}
+    
+.sectionredes h3{
+        text-align: center;
+        font-family: $fuente-pacif;
+        padding:16px;
+    }
+    
+
 
 footer{
     color: white;
@@ -132,16 +155,13 @@ footer{
  }
 
  .puertomadero{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-items: center;
+    @extend .recoleta;}
     
-     img{ 
+    img{ 
         width: 70%;
         height: 70%;
     }
- }
+
 
 .puertomadero img:hover{
     transform: translate(20px,-20px);
@@ -208,16 +228,23 @@ footer{
         h2{
             font-family: $fuente-pacif;
         }
+        img{
+            height: 50%;
+            width: 50%;
+        }
     }
-.formulario h3{
+.formulario{ 
+    h3{
        font-size: 25px;
-       font-family: $fuente-caveat;
-    
+       font-family: $fuente-caveat;}
     }
+
 
 /*quienes somos*/
 
 .quienes-somos{
     background-image: linear-gradient(white,orange);
+    padding:10px;
+    margin: 10px;
 }
 

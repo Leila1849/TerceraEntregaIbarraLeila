@@ -42,6 +42,10 @@ header nav ul li {
   display: inline-block;
 }
 
+.section1 img {
+  overflow: hidden;
+}
+
 .titulocomida {
   text-align: center;
   background-color: lemonchiffon;
@@ -83,7 +87,7 @@ header nav ul li {
 .happy h2 {
   color: white;
 }
-.happy p {
+.happy h3 {
   color: white;
 }
 
@@ -94,6 +98,23 @@ header nav ul li {
 }
 .ubicacion h4 {
   font-family: pacifico;
+}
+
+.redes {
+  margin: 16px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+}
+.redes img {
+  height: 64px;
+  width: 64px;
+}
+
+.sectionredes h3 {
+  text-align: center;
+  font-family: pacifico;
+  padding: 16px;
 }
 
 footer {
@@ -110,24 +131,18 @@ footer img {
 }
 
 /*nuestros locales*/
-.recoleta {
+.recoleta, .puertomadero {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   justify-items: center;
 }
-.recoleta img {
+.recoleta img, .puertomadero img {
   width: 70%;
   height: 70%;
 }
 
-.puertomadero {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  justify-items: center;
-}
-.puertomadero img {
+img {
   width: 70%;
   height: 70%;
 }
@@ -136,7 +151,7 @@ footer img {
   transform: translate(20px, -20px);
 }
 
-.recoleta img:hover {
+.recoleta img:hover, .puertomadero img:hover {
   transform: translate(20px, -20px);
 }
 
@@ -203,6 +218,10 @@ footer img {
 .reserva h2 {
   font-family: pacifico;
 }
+.reserva img {
+  height: 50%;
+  width: 50%;
+}
 
 .formulario h3 {
   font-size: 25px;
@@ -212,6 +231,6 @@ footer img {
 /*quienes somos*/
 .quienes-somos {
   background-image: linear-gradient(white, orange);
-}
-
-/*# sourceMappingURL=style.css.map */
+  padding: 10px;
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */

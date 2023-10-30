@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="DINNER" content="Celebrando la buena vida, a traves de la comida">
+    <meta name="description" content= "En DINNER tenemos las mejores promos para cada dia de la semana">
+    <meta name="keywords" content="DESCUENTOS, PASTAS, SALMON, SANDWICHS, HAMBURGUESAS, VEGGIES">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-   <title>|DINNER| Un lugar diferente</title>
+    <link rel="stylesheet" href="./sass/style.css">
+   <title>|DINNER| Un plato diferente para cada dia</title>
 </head>
 <body>
 
@@ -25,20 +26,41 @@
     </header>
 
 <main>
-    
-    <section>
-        <div class="section1">
-            <img src="./img/Imagen1.jpg" class="img-fluid" alt="Imagen1">
+<section> 
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    </section>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/Imagen1.jpg" class="d-block w-100" alt="DINNER1">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/imagen2.jpg" class="d-block w-100" alt="DINNER2">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/imagen3.jpg" class="d-block w-100" alt="DINNER3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
-    <section>  
+
+</section>
+
+<section>  
         <h3 class="titulocomida"> <em> ¡Celebrando la buena vida, a traves de la comida!</h3> </em>
-        <div class="section2">
-            <img class="celebrando" src="./img/imagen2.jpg" alt="dumlicetfruere2">
-            <img class="celebrando" src="./img/imagen3.jpg" alt="dumlicetfruere3">   
-        </div>
-    </section>
+        
+</section>
 
     <div class="platos">
         <h2 class="nuestrosplatos"> <strong> <u> Probá nuestros mejores platos:</h2> </strong></u>
@@ -66,16 +88,27 @@
 
     <section class="happy">   
         <h2> ¡Nuestro happy hour todos los Sabados!</h2> 
-        <p> En el patio y la barra, para disfrutar de nuestros appetizers y tragos a precios especiales. </p>
+        <h3> En el patio y la barra, para disfrutar de nuestros appetizers y tragos a precios especiales. </h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/n8qz1RhP4KI?si=FhdNQ8d6UsKu8zps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </section>
-    
-
 
     <section class="ubicacion"> 
         <h4> ¿Donde nos ubicamos? </h4>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3980703161897!2d-58.719586624808194!3d-34.6951383623311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc03fb04ab97d%3A0x1abfd07b9decd6a3!2sPaso%20de%20los%20Patos%201849%2C%20B1721AUC%20Merlo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1693070656705!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3980703161897!2d-58.719586624808194!3d-34.6951383623311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc03fb04ab97d%3A0x1abfd07b9decd6a3!2sPaso%20de%20los%20Patos%201849%2C%20B1721AUC%20Merlo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1693070656705!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
     </section>
+    
+    <section class="sectionredes">
+        <h3> Seguinos en nuestras redes sociales:</h3>
+            <div class="redes">               
+                <a href="https://es-la.facebook.com/" target="_blank"><img src="./img/facebook.png" alt="logo facebook">
+                <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png"
+                            alt="logo instagram"> </a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><img src="./img/twitter.png" alt="logo twitter">
+                    </a>
+            </div>
+    
+    </section>
+
 </main>
 
 <footer>
