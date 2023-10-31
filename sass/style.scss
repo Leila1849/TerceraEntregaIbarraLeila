@@ -43,13 +43,18 @@ header{
             text-align:center;
             display: inline-block;        
             }
+            a:hover{
+                background-color: white;
+                box-shadow: 5px 5px $color-secundary;
+            }
      }       
     }
     }
 
-.section1{
+.presentacion{
     img{
-        overflow: hidden;
+    height: 100%;
+    width: 100%;
     }
 }
 .titulocomida{

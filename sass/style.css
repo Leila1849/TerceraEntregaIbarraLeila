@@ -41,9 +41,14 @@ header nav ul li {
   text-align: center;
   display: inline-block;
 }
+header nav ul a:hover {
+  background-color: white;
+  box-shadow: 5px 5px orange;
+}
 
-.section1 img {
-  overflow: hidden;
+.presentacion img {
+  height: 100%;
+  width: 100%;
 }
 
 .titulocomida {
